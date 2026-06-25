@@ -11,8 +11,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00DWL000008s673',
-				'Messaging_Nursegrid_Manager',
-				'https://healthstream--hstm.sandbox.my.site.com/ESWMessagingNursegridManager',
+				'Agentforce_Messaging_Test',
+				'https://healthstream--hstm.sandbox.my.site.com/ESWAgentforceMessagingT1782407906626',
 				{
 					scrt2URL: 'https://healthstream--hstm.sandbox.my.salesforce-scrt.com'
 				}
@@ -22,4 +22,4 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWMessagingNursegridManager/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWAgentforceMessagingT1782407906626/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
