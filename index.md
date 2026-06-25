@@ -1,14 +1,7 @@
 <script type='text/javascript'>
-	  function initEmbeddedMessaging() {
+	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			embeddedservice_bootstrap.settings.chatButtonPosition = "1%, 1%"; // Setting chat button position, measured from bottom right
-
-			window.addEventListener("onEmbeddedMessagingReady", () => {
-				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-					"PreChat_URL": window.location.origin
-				});
-			});
 
 			embeddedservice_bootstrap.init(
 				'00DWL000008s673',
